@@ -16,8 +16,9 @@ p {
 .header {
     background: #FFF8F3;
     background-image: url('images/header_bg.png');
+    background-image: url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right top left;
 }
 
 nav {
@@ -81,7 +82,7 @@ button {
 /* Banner */
 
 .banner {
-    padding: 200px 10px 0px 100px;
+    padding: 200px 10px 10px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;

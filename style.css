@@ -1,11 +1,9 @@
 * {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Open Sans;
 }
 
-/* header {
-    margin: 20px;
-} */
+/* Header design*/
 p {
     color: var(--Dark-03, #757575);
     font-family: Open Sans;
@@ -17,6 +15,9 @@ p {
 
 .header {
     background: #FFF8F3;
+    background-image: url('..//images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav {
@@ -80,18 +81,16 @@ button {
 /* Banner */
 
 .banner {
-    padding: 200px 10px 10px 100px;
+    padding: 200px 10px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-greeting {
     color: var(--Dark-02, #474747);
-    font-family: Open Sans;
     font-size: 45px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+   
 }
 
 button > svg {
@@ -103,13 +102,53 @@ button > svg {
 
 .banner-name {
     color: var(--Dark-01, #181818);
-    font-family: Open Sans;
     font-size: 85px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
 }
 
 .banner .profile-picture {
     width: 500px;
+}
+
+/* header design */
+
+/* about me */
+
+main {
+    font-family: Open Sans;
+}
+
+.about-me {
+    margin: 100px;
+    padding: 100px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-me > .section-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-me > .section-description{
+    text-align: center;
+}
+
+.my-data {
+    display: flex;
+    justify-content: center;
+
+}
+
+.my-title {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.my-title > p {
+    text-align: center;
+    margin: 30px;
 }

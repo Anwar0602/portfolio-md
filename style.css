@@ -116,12 +116,15 @@ button > svg {
 
 main {
     font-family: Open Sans;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-me {
     margin: 100px;
-    padding: 100px;
+    padding: 50px;
     background: #FFF8F3;
+    border: 1px solid navy;
     border-radius: 10px;
 }
 
@@ -134,11 +137,10 @@ main {
     text-align: center;
 }
 
-.my-data {
+ .my-data {
     display: flex;
     justify-content: center;
-
-}
+} 
 
 .my-title {
     color: var(--Dark-02, #474747);
@@ -146,9 +148,41 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+    text-align: center;
+    padding: 50px;
 }
 
-.my-title > p {
-    text-align: center;
-    margin: 30px;
+.skills {
+    margin: 100px;
+    padding: 50px;
+}
+
+.section-title {
+    padding: 10px;
+}
+
+.section-description {
+    padding: 10px;
+}
+
+.my-skills {
+    display: flex;
+}
+
+.skill-title {
+    color: var(--Dark-02, #474747);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 100px 0px rgba(0, 0, 0, 0.09);
+    padding: 10px;
+}
+
+.skill-title-h4 {
+    font-size: 20px;
 }

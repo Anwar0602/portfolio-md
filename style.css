@@ -3,13 +3,26 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
+/* header {
     margin: 20px;
+} */
+p {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.header {
+    background: #FFF8F3;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 20px 10px 10px 100px;
 }
 
 header > nav > ul > h3 {
@@ -33,7 +46,7 @@ header > nav > ul > li > a {
     line-height: normal;
 }
 
-header > nav > ul > li > button {
+button {
     cursor: pointer;
     border: 0;
     background: #FD6E0A;
@@ -62,4 +75,41 @@ header > nav > ul > li > button {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+/* Banner */
+
+.banner {
+    padding: 200px 10px 10px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+button > svg {
+    flex-shrink: 0;
+    color: white;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.banner-name {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner .profile-picture {
+    width: 500px;
 }
